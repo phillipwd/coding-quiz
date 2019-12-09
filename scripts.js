@@ -3,7 +3,7 @@ var counter = document.getElementsByClassName("timetest");
 var startButton = document.getElementsByClassName("start");
 var startCountDown = document.getElementsByClassName("startCountDown");
 var QBox = document.getElementsByClassName("question");
-var numHolder = 5;
+var numHolder = 3;
 var elapsed = 0;
 // console.log(startButton);//works
 // console.log(startCountDown[0].textContent);
