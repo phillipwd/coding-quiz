@@ -14,6 +14,8 @@ var score = document.getElementsByClassName("paratest");
 startButton[0].addEventListener("click", function(){
     //alert("Click"); //works
     start = true;
+    counter[0].setAttribute("class", "hide");
+    startButton[0].setAttribute("class", "hide");
     changeNumber();
     
 })//working
