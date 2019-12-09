@@ -2,3 +2,12 @@
 .paratest{
     background-color: red;
 }
+.options{
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+.colortest{
+    color: silver;
+}
