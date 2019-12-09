@@ -11,3 +11,9 @@
 .colortest{
     color: silver;
 }
+.hide{
+    opacity: 0;
+}
+.show{
+    opacity: 100;
+}
