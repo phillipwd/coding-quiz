@@ -3,9 +3,10 @@ var counter = document.getElementsByClassName("timetest");
 var startButton = document.getElementsByClassName("start");
 var startCountDown = document.getElementsByClassName("startCountDown");
 var QBox = document.getElementsByClassName("question");
+var submit = document.getElementsByClassName("submitButton");
 var numHolder = 3;
 var elapsed = 0;
-// console.log(startButton);//works
+// console.log(submit.length);
 // console.log(startCountDown[0].textContent);
 var start = false;
 var ready = false;
@@ -49,3 +50,6 @@ function startTest(){
 
     }
 }
+// for(i = 0; i < inputButton.length; i++){
+
+// }
