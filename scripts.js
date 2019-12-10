@@ -31,8 +31,7 @@ startButton[0].addEventListener("click", function(){
 
 for(i = 0; i < choice.length; i++){
     choice[i].addEventListener("click", function(){
-        console.log("click");
-        
+        console.log("click");//works    
     })
     console.log(choice[i].value);    
 }
@@ -63,6 +62,7 @@ function startTest(){
            elapsed = 0;
         }
        QBox[qNo].setAttribute("class", "show");
+       //remove previous question visibility here
        changeNumber(); 
 
     }
